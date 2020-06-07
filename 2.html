@@ -1,0 +1,47 @@
+<html>
+	<head>
+		<title>Datebase</title>
+	</head>
+	<body>
+	<center>
+		<div style="font-size:70px;">Datebase</div>
+		
+			<table style="width="60%" border=7"" cellpadding="10">
+				<tr>
+					<td><font size="20" align="center">Oracle</font></td>
+					<td><font size="20" align="center">SQL Server</font></td>
+					<td><font size="20" align="center">DB2</font></td>	
+				<tr>
+					<td><font size="5" align="center">Multi-version read consistency</font></td>
+					<td><font size="5" align="center">Not available</font></td>
+					<td><font size="5" align="center">Not available</font></td>
+				</tr>
+				<tr>
+					<td><font size="5" align="center">No read locks</font></td>
+					<td><font size="5" align="center">Requires shared read locks to avoid dirty reads</font></td>
+					<td><font size="5" align="center">Requires read locks to avoid dirty reads</font></td>
+				</tr>
+				<tr>
+					<td><font size="5" align="center">No dirty reads</font></td>
+					<td><font size="5" align="center">Dirty reads if not using shared locks</font></td>
+					<td><font size="5" align="center">Dirty read if not using read lock</font></td>
+				</tr>
+				<tr>
+					<td><font size="5" align="center">Non-escalating row-level locking</font></td>
+					<td><font size="5" align="center">Locks escalate</font></td>
+					<td><font size="5" align="center">Locks escalate</font></td>
+				</tr>
+			</table>
+		<br><hr>
+		<table style=" width:40%; border=7; cellpadding=10">
+				<tr>
+					<th><a href="index.html"><font size="5" align="center">1</font></a></th>
+					<th><a href="1.html"><font size="5" align="center">2</font></a></th>
+					<th><a href="2.html"><font size="5" align="center">3</font></a></th>
+					<th><a href="3.html"><font size="5" align="center">4</font></a></th>
+					<th><a href="4.html"><font size="5" align="center">5</font></a></th>
+				</tr>
+			</table>
+		</center>
+	</body>
+</html>
